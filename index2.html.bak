@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <style>
+      [class*="col-"] {
+       background-color: #eee;
+       text-align: center;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       margin-bottom: 10px;
+       font-size: 2rem;
+      }
+     </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["Roboto Slab", "serif"],
+            sans: ["Roboto", "sans-serif"],
+          },
+          extend: {
+            colors: {
+              custom: {
+                gray: {
+                  100: "#EDEDED",
+                  400: "#B9B9B9",
+                  900: "#324950",
+                },
+                main: "#F7F7F7",
+                green: "#57984C",
+                blue: "#2D3F45",
+                brown: "#735440",
+              },
+            },
+            dropShadow: {
+              "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
+              "4xl": [
+                "0 35px 35px rgba(0, 0, 0, 0.25)",
+                "0 45px 65px rgba(0, 0, 0, 0.15)",
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive2.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+        <title>Tomato one</title>
+        <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+        <label class="btn-menu" for="hmt">
+            <span class="first"></span>
+            <span class="second"></span>
+            <span class="third"></span>
+        </label>
+        <ul class="hidden-menu">
+            <li><a href="index.html" class="text-custom-gray-900">Home</a></li>  
+            <li><a href="#" class="text-custom-gray-900">Company Profile</a></li>
+            <li><a href="#" class="text-custom-gray-900">Products</a></li>
+            <li><a href="#" class="text-custom-gray-900">Services</a></li>
+            <li><a href="#" class="text-custom-gray-900">R & D</a></li>
+            <li><a href="index3.html" class="text-custom-gray-900">Contact</a></li>
+        </ul>
+
+
+    </head>
+    <body>
+
+      <div class="v53_178">
+        <header class="wrap flex justify-between pt-[20px]">
+            <div class="w-[226px] h-[113px]">
+              <img src="/img/icons/logo.png" alt="logo" />
+            </div>
+            <div class="flex flex-col justify-between" id="bbbb">
+              <div
+                class="w-[350px] h-[30px] flex justify-between border-b border-custom-gray-900 items-center self-end"
+              >
+                <input
+                  role="search"
+                  type="text"
+                  class="self-center outline-none bg-inherit search"
+                  placeholder="Search"
+                />
+                <div class="w-[18px] h-[18px]">
+                  <img
+                    src="/img/icons/ico_search.svg"
+                    class="w-[50px]"
+                    alt="search"
+                  />
+                </div>
+              </div>
+              <ul class="flex justify-between w-[500px] text-md">
+                <li><a href="index.html" class="text-custom-gray-900">Home</a></li>
+                <li>
+                  <a href="#" class="text-custom-gray-900">Company Profile</a>
+                </li>
+                <li><a href="#" class="text-custom-gray-900">Products</a></li>
+                <li><a href="#" class="text-custom-gray-900">Services</a></li>
+                <li><a href="#" class="text-custom-gray-900">R & D</a></li>
+                <li><a href="index3.html" class="text-custom-gray-900">Contact</a></li>
+              </ul>
+            </div>
+          </header>
+</div>
+
+        <div class="v53_174">
+            <div class="name">
+
+            </div>
+            
+        <div class="v53_205">
+          <footer>
+            <div class="bg-custom-blue">
+              <div class="wrap flex items-center py-[22px] justify-between">
+                <nav class="">
+                  <ul class="space-x-[36px] flex font-sans-serif">
+                    <li><a href="#" class="text-white">PROFILE</a></li>
+                    <li><a href="#" class="text-white">MANAGEMENT</a></li>
+                    <li><a href="#" class="text-white">PRODUCTS</a></li>
+                    <li><a href="#" class="text-white">R&D</a></li>
+                    <li><a href="#" class="text-white">SITEMAP</a></li>
+                    <li><a href="#" class="text-white">CONTACT</a></li>
+                  </ul>
+                </nav>
+                <div>
+                  <ul class="flex space-x-[14px]">
+                    <li>
+                      <a href="#">
+                        <img src="/img/icons/social/Ico_in.svg" alt="linkedIn"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img
+                          src="/img/icons/social/Ico_inst.svg"
+                          alt="instagram"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img
+                          src="/img/icons/social/Ico_tube.svg"
+                          alt="youtube"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="/img/icons/social/Ico_tw.svg" alt="twitter"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="/img/icons/social/Ico_fb.svg" alt="meta"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-custom-gray-900 text-center text-custom-gray-400 text-sm py-4"
+            >
+              AGRIDERA SEEDS & AGRICULTURE LTD. © 2020
+            </div>
+          </footer>
+        </div>
+        <div class="v53_224">
+
+        </div>
+        <div class="v53_225">
+
+        </div>
+        <div class="v53_264">
+            <span class="v53_265">TAG 1002 (TAG 809)
+              <div class="v53_264_1">
+Tomato Determinate
+Red Standard Round</span></div>
+<div class="name">
+
+</div>
+
+</div>
+<div class="v53_283">
+
+</div>
+
+<span class="v53_309">Plant</span>
+<span class="v53_308">• Strong vigor that provides good leaf coverage. <br>
+• Very high productivity with good fruit setting.<br>
+• Early matured variety.<br>
+
+</span>
+<span class="v53_314">• Spring<br>
+• Fall <br>
+• Winter<br></span>
+<span class="v53_317">• Red</span>
+<span class="v53_311">• Long shelf life on plant and post harvest.<br>
+  • Nice shiny attractive deep red color.<br>
+  • Average fruit size: 140 – 160 grams.<br>
+</span>
+<!--Я не использовал стандартные ненумерованные списки, т.к. они не раотают с <span></span>.
+  А ещё маркеры вылазили за необходимую мне границу. 
+Но для справки, я знаю, как они работают и как их применять.-->
+
+<span class="v53_315">Cycle</span>
+<span class="v53_318">Color</span>
+<span class="v53_312">Fruit
+</span>
+<div class="v53_565">
+    <span class="v53_266"><b>Resistance</b> <br>
+HR: ToMV:0-2; Fol: 1,2; Ve/Vd; <br>
+IR: TYLCV
+</span>
+<span class="v53_290">CHARACTERISTICS</span>
+<div class="name"></div>
+</div>
+<div class="name">
+
+</div>
+<div class="name">
+
+</div>
+<div class="name">
+
+</div>
+<div class="name">
+
+</div>
+<div class="v53_287">
+    <span class="v53_286"><a href="index1.html">← Return to all tomatoes</a></span>
+    
+</div>
+<div class="v53_307">
+        <span class="v53_306">Very high yield and excellent fruits quality!
+</span>
+<div class="v53_305">
+    <div class="v53_301">
+      <img src="/img/v53_301.png" alt="cherry" />
+    </div>
+    <div class="name">
+
+    </div>
+</div>
+</div>
+
+<div class="v65_52">
+    <div class="v65_51">
+
+    </div>
+    <span class="v65_46">Download pdf</span>
+    <div class="name">
+
+    </div>
+</div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

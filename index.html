@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["Roboto Slab", "serif"],
+            sans: ["Roboto", "sans-serif"],
+          },
+          extend: {
+            colors: {
+              custom: {
+                gray: {
+                  100: "#EDEDED",
+                  400: "#B9B9B9",
+                  900: "#324950",
+                },
+                main: "#F7F7F7",
+                green: "#57984C",
+                blue: "#2D3F45",
+                brown: "#735440",
+              },
+            },
+            dropShadow: {
+              "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
+              "4xl": [
+                "0 35px 35px rgba(0, 0, 0, 0.25)",
+                "0 45px 65px rgba(0, 0, 0, 0.15)",
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive2.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+
+    <title>Agridera</title>
+  </head>
+
+  <body class="font-sans">
+    
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <label class="btn-menu" for="hmt">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+    </label>
+    <ul class="hidden-menu">
+        <li><a href="#" class="text-custom-gray-900">Home</a></li>  
+        <li><a href="#" class="text-custom-gray-900">Company Profile</a></li>
+        <li><a href="#" class="text-custom-gray-900">Products</a></li>
+        <li><a href="#" class="text-custom-gray-900">Services</a></li>
+        <li><a href="#" class="text-custom-gray-900">R & D</a></li>
+        <li><a href="index3.html" class="text-custom-gray-900">Contact</a></li>
+    </ul>
+    
+    <header class="wrap flex justify-between pt-[20px]">
+      <div class="w-[226px] h-[113px]">
+        <img src="/img/icons/logo.png" alt="logo" />
+      </div>
+      <div class="flex flex-col justify-between" id="bbbb">
+        <div
+          class="w-[350px] h-[30px] flex justify-between border-b border-custom-gray-900 items-center self-end"
+        >
+          <input
+            role="search"
+            type="text"
+            class="self-center outline-none bg-inherit search"
+            placeholder="Search"
+          />
+          <div class="w-[18px] h-[18px]">
+            <img
+              src="/img/icons/ico_search.svg"
+              class="w-[50px]"
+              alt="search"
+            />
+          </div>
+        </div>
+        <ul class="flex justify-between w-[500px] text-md">
+          <li><a href="#" class="text-custom-gray-900">Home</a></li>
+          <li>
+            <a href="#" class="text-custom-gray-900">Company Profile</a>
+          </li>
+          <li><a href="#" class="text-custom-gray-900">Products</a></li>
+          <li><a href="#" class="text-custom-gray-900">Services</a></li>
+          <li><a href="#" class="text-custom-gray-900">R & D</a></li>
+          <li><a href="index3.html" class="text-custom-gray-900">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section
+        class="h-[850px] w-full bg-no-repeat bg-cover bg-center pt-5 -mt-[133px]"
+        style="background-image: url(/img/slider/bg.jpg)"
+      >
+        <div
+          class="text-center wrap flex flex-col items-center justify-center h-full"
+        >
+          <h1 class="text-custom-brown font-bold text-5xl">
+            Agridera Seeds and Agriculture Ltd
+          </h1>
+          
+          <div class="mt-[60px]">
+            <a
+              href="#"
+              class="block uppercase bg-custom-green text-white px-[30px] py-4 w-40 h-[55px]"
+              >read more</a
+            >
+          </div>
+
+        </div>
+      </section>
+      <div class="top-six-1">
+        <ul class="text-custom-gray-900 flex justify-center items-end py-10 space-x-[100px]" style="margin: 0 auto;">
+
+          <li class="flex flex-col" style="padding-left: 10px;">
+            <img
+              src="/img/icons/wheat.svg"
+              class="self-center w-[50px]"
+              alt="wheat"
+            /><span class="text-xl mt-5">Wheat</span>
+          </li>
+          <li class="flex flex-col">
+            <img
+              src="/img/icons/watermelon.svg"
+              class="self-center w-[50px]"
+              alt="wheat"
+            /><span class="text-xl mt-5">Confection Watermelon</span>
+          </li>
+          <li class="flex flex-col">
+            <img
+              src="/img/icons/clover.svg"
+              class="self-center w-[50px]"
+              alt="clover"
+            /><span class="text-xl mt-5">Clover</span>
+          </li>
+          <li class="flex flex-col">
+            <img
+              src="/img/icons/conf_sunflower.svg"
+              class="self-center w-[50px]"
+              alt="conf_sunflower"
+            /><span class="text-xl mt-5">Confection Sunflower</span>
+          </li>
+          <li class="flex flex-col">
+            <img
+              src="/img/icons/tomato.svg"
+              class="self-center w-[50px]"
+              alt="tomato"
+            /><span class="text-xl mt-5">Tomato</span>
+          </li>
+          <li class="flex flex-col">
+            <img
+              src="/img/icons/eggplant.svg"
+              class="self-center w-[50px]"
+              alt="eggplant"
+            /><span class="text-xl mt-5">Eggplant P/O</span>
+          </li>
+          <li class="flex flex-col">
+            <img
+              src="/img/icons/sunflower.svg"
+              class="self-center w-[60px]"
+              alt="sunflower"
+            /><span class="text-xl mt-5">Ornamental Sunflower</span>
+          </li>
+        </ul>
+      </div>
+      <!--
+      <div class="top-six-1">
+        <ul class="text-custom-gray-900 flex justify-center items-end py-10 space-x-[100px]" style="margin: 0 auto;">
+          
+        </ul>
+      </div>
+      -->
+      <section
+        class="bg-custom-main pt-20 pb-24 space-y-[100px] bg-no-repeat bg-cover bg-center"
+        style="background-image: url(/assets/img/icons/bg-logo.svg);"
+      >
+        <div class="flex justify-between wrap">
+          <div class="text-custom-gray-900 max-w-[500px]">
+            <div class="relative pb-[62px]">
+              <h2
+                class="text-[64px] font-bold after:content-['*****'] after:absolute after:text-[20px] after:bottom-6 after:left-0 after:text-custom-green"
+              >
+                Vision
+              </h2>
+            </div>
+
+            <p class="text-xl">
+              We believe in long-term growth with an emphasis on the potential
+              of emerging markets. We also support the global need of feeding
+              the growing population.
+            </p>
+          </div>
+          <div class="w-[540px] h-[500px] drop-shadow-3xl">
+            <img src="/img/content/plant_in_hand.jpg" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between wrap" style="flex-direction: row-reverse;">
+          
+          <div class="text-custom-gray-900 max-w-[500px]">
+            <div class="relative pb-[62px]">
+              <h2
+                class="text-[64px] font-bold after:content-['*****'] after:absolute after:text-[20px] after:bottom-6 after:left-0 after:text-custom-green"
+              >
+                Mission
+              </h2>
+            </div>
+
+            <p class="text-xl">
+              Breeding and marketing seeds for advanced field crops and
+              vegetable varieties that provide an added value to all supply
+              chain partners.
+            </p>
+          </div>
+          <div class="w-[540px] h-[500px] drop-shadow-3xl">
+            <img src="/img/content/plants.jpg" alt="" />
+          </div> 
+        </div>
+      </section>
+      <section class="bg-custom-gray-100">
+        <div class="wrap pt-[70px] pb-[90px]">
+          <h2 class="text-center text-[64px] text-custom-gray-900 font-bold" style="
+          height: 100px;
+          width: 660px;
+      ">
+            Agridera’s main activities
+          </h2>
+          <div class="pt-6 pb-[60px] text-center text-custom-green text-[20px]" style="
+          margin: 0 auto;
+          width: 100px;
+          padding-top: 4.5rem;
+      ">
+            *****
+          </div>
+          <div class="w-full">
+            <ul class="flex justify-between">
+              <li class="flex flex-col items-center" style="
+              position: unset;
+              min-height: 1px;
+              padding-right: 15px;
+              padding-left: 15px;
+              width: 40%;
+              margin: 0 auto;
+          ">
+                <div>
+                  <img src="/img/content/cotton.png" alt="cotton" />
+                </div>
+                <h4 class="text-2xl text-custom-green font-bold pt-4" style="text-align: center;">
+                  Open field crop seeds
+                </h4>
+                <div
+                  class="w-[180px] border-b border-custom-green mt-[28px] mb-5"
+                ></div>
+                <div class="max-w-[250px] text-lg text-center">
+                  wheat, cotton, legumes, hybrid confection sunflower
+                </div>
+              </li>
+              <li class="flex flex-col items-center" style="
+              position: unset;
+              min-height: 1px;
+              padding-right: 15px;
+              padding-left: 15px;
+              width: 40%;
+              margin: 0 auto;
+          ">
+                <div>
+                  <a href="index1.html"><img src="/img/content/tommato.png" alt="cotton" /></a>
+                </div>
+                <h4 class="text-2xl text-custom-green font-bold pt-4" style="text-align: center;">
+                  <a href="index1.html">Vegetable seeds</a>
+                </h4>
+                <div
+                  class="w-[180px] border-b border-custom-green mt-[28px] mb-5"
+                ></div>
+                <div class="max-w-[250px] text-lg text-center">
+                  hybrid open field tomatoes, eggplant, onion, paprika, etc.
+                </div>
+              </li>
+              <li class="flex flex-col items-center" style="
+              position: unset;
+              min-height: 1px;
+              padding-right: 15px;
+              padding-left: 15px;
+              width: 40%;
+              margin: 0 auto;
+          ">
+                <div>
+                  <img src="/img/content/sunflower.png" alt="cotton" />
+                </div>
+                <h4 class="text-2xl text-custom-green font-bold pt-4"style="text-align: center;">
+                  Ornamental seeds
+                </h4>
+                <div
+                  class="w-[180px] border-b border-custom-green mt-[28px] mb-5"
+                ></div>
+                <div class="max-w-[250px] text-lg text-center">
+                  hybrid cut sunflowers, hybrid
+                  patio tomatoes, Bells of Irland, etc.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="bg-custom-blue">
+        <div class="wrap flex items-center py-[22px] justify-between" style="
+    max-width: 20%;
+">
+          <nav class="">
+            <ul class="space-x-[36px] flex font-sans-serif">
+              <li><a href="#" class="text-white">PROFILE</a></li>
+              <li><a href="#" class="text-white">MANAGEMENT</a></li>
+              <li><a href="#" class="text-white">PRODUCTS</a></li>
+              <li><a href="#" class="text-white">R&D</a></li>
+              <li><a href="#" class="text-white">SITEMAP</a></li>
+              <li><a href="#" class="text-white">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div>
+            <ul class="flex space-x-[14px]">
+              <li>
+                <a href="#">
+                  <img src="/img/icons/social/Ico_in.svg" alt="linkedIn"
+                /></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="/img/icons/social/Ico_inst.svg"
+                    alt="instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="/img/icons/social/Ico_tube.svg"
+                    alt="youtube"
+                /></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/img/icons/social/Ico_tw.svg" alt="twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/img/icons/social/Ico_fb.svg" alt="meta"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-custom-gray-900 text-center text-custom-gray-400 text-sm py-4"
+      >
+        AGRIDERA SEEDS & AGRICULTURE LTD. © 2020
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

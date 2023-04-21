@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="/css/main.css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+          <style>
+          [class*="col-"] {
+           background-color: #eee;
+           text-align: center;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           margin-bottom: 10px;
+           font-size: 2rem;
+          }
+         </style>
+        <script>
+          tailwind.config = {
+            theme: {
+              fontFamily: {
+                sans: ["Roboto Slab", "serif"],
+                sans: ["Roboto", "sans-serif"],
+              },
+              extend: {
+                colors: {
+                  custom: {
+                    gray: {
+                      100: "#EDEDED",
+                      400: "#B9B9B9",
+                      900: "#324950",
+                    },
+                    main: "#F7F7F7",
+                    green: "#57984C",
+                    blue: "#2D3F45",
+                    brown: "#735440",
+                  },
+                },
+                dropShadow: {
+                  "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
+                  "4xl": [
+                    "0 35px 35px rgba(0, 0, 0, 0.25)",
+                    "0 45px 65px rgba(0, 0, 0, 0.15)",
+                  ],
+                },
+              },
+            },
+          };
+        </script>
+        <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/responsive2.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+        <title>Contact us</title>
+        <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+        <label class="btn-menu" for="hmt">
+            <span class="first"></span>
+            <span class="second"></span>
+            <span class="third"></span>
+        </label>
+        <ul class="hidden-menu">
+            <li><a href="index.html" class="text-custom-gray-900">Home</a></li>  
+            <li><a href="#" class="text-custom-gray-900">Company Profile</a></li>
+            <li><a href="#" class="text-custom-gray-900">Products</a></li>
+            <li><a href="#" class="text-custom-gray-900">Services</a></li>
+            <li><a href="#" class="text-custom-gray-900">R & D</a></li>
+            <li><a href="index3.html" class="text-custom-gray-900">Contact</a></li>
+        </ul>
+    </head>
+    <body>
+        <div class="v117_226">
+            
+                
+            
+            <div class="v117_229">
+
+            </div>
+            <div class="v53_178">
+                <header class="wrap flex justify-between pt-[20px]">
+                    <div class="w-[226px] h-[113px]">
+                      <img src="/img/icons/logo.png" alt="logo" />
+                    </div>
+                    <div class="flex flex-col justify-between" id="bbbb">
+                      <div
+                        class="w-[350px] h-[30px] flex justify-between border-b border-custom-gray-900 items-center self-end"
+                      >
+                        <input
+                          role="search"
+                          type="text"
+                          class="self-center outline-none bg-inherit search"
+                          placeholder="Search"
+                        />
+                        <div class="w-[18px] h-[18px]">
+                          <img
+                            src="/img/icons/ico_search.svg"
+                            class="w-[50px]"
+                            alt="search"
+                          />
+                        </div>
+                      </div>
+                      <ul class="flex justify-between w-[500px] text-md">
+                        <li><a href="index.html" class="text-custom-gray-900">Home</a></li>
+                        <li>
+                          <a href="#" class="text-custom-gray-900">Company Profile</a>
+                        </li>
+                        <li><a href="#" class="text-custom-gray-900">Products</a></li>
+                        <li><a href="#" class="text-custom-gray-900">Services</a></li>
+                        <li><a href="#" class="text-custom-gray-900">R & D</a></li>
+                        <li><a href="index3.html" class="text-custom-gray-900">Contact</a></li>
+                      </ul>
+                    </div>
+                  </header>
+        </div>
+        <div class="v117_238">
+            <div class="v117_239">
+                <span class="v117_240">Contact us</span>
+                <div class="name">
+
+                </div>
+            </div>
+        </div>
+        <div class="v117_257">
+            <footer>
+                <div class="bg-custom-blue">
+                  <div class="wrap flex items-center py-[22px] justify-between">
+                    <nav class="">
+                      <ul class="space-x-[36px] flex font-sans-serif">
+                        <li><a href="#" class="text-white">PROFILE</a></li>
+                        <li><a href="#" class="text-white">MANAGEMENT</a></li>
+                        <li><a href="#" class="text-white">PRODUCTS</a></li>
+                        <li><a href="#" class="text-white">R&D</a></li>
+                        <li><a href="#" class="text-white">SITEMAP</a></li>
+                        <li><a href="#" class="text-white">CONTACT</a></li>
+                      </ul>
+                    </nav>
+                    <div>
+                      <ul class="flex space-x-[14px]">
+                        <li>
+                          <a href="#">
+                            <img src="/img/icons/social/Ico_in.svg" alt="linkedIn"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img
+                              src="/img/icons/social/Ico_inst.svg"
+                              alt="instagram"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img
+                              src="/img/icons/social/Ico_tube.svg"
+                              alt="youtube"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="/img/icons/social/Ico_tw.svg" alt="twitter"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="/img/icons/social/Ico_fb.svg" alt="meta"
+                          /></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="bg-custom-gray-900 text-center text-custom-gray-400 text-sm py-4"
+                >
+                  AGRIDERA SEEDS & AGRICULTURE LTD. © 2020
+                </div>
+              </footer>
+        </div>
+        <div class="v117_276">
+
+        </div>
+        <div class="v117_277">
+
+        </div>
+        <div class="v117_363">
+            <div class="v117_303">
+            <input name="name" size="48" required style="
+                height: 50px;
+                width: 380px;
+                font-size: 20px;
+            ">
+
+            </div>
+            <div class="v117_305">
+                <input type="text" size="48" style="
+                height: 50px;
+                width: 380px;
+                font-size: 20px;
+            ">
+            </div>
+            <div class="v117_313">
+                <input type="text" size="48" style="
+                height: 50px;
+                width: 380px;
+                font-size: 20px;
+            ">
+            </div>
+            <div class="v117_343">
+                <input type="tel" size="48" style="
+                height: 50px;
+                width: 382px;
+                font-size: 20px;
+            ">
+            </div>
+            <div class="v117_304">
+                <input name="name" size="48" style="
+                height: 50px;
+                width: 383px;
+                font-size: 20px;
+            ">
+            </div>
+            <div class="v117_314">
+                <input type="text" size="48" style="
+                height: 50px;
+                width: 380px;
+                font-size: 20px;
+            ">
+            </div>
+            <div class="v117_345">
+                <input type="email" size="48" required style="
+                height: 50px;
+                width: 380px;
+                font-size: 20px;
+            ">
+            </div>
+            <div class="v117_349">
+                <input type="text" size="48" style="
+                height: 50px;
+                width: 241px;
+                font-size: 20px;
+            "> 
+            </div>
+            <div class="v117_347">
+                <textarea style="
+                    width: 695px;
+                    height: 384px;
+                "></textarea>
+            </div>
+            <span class="v117_308">Name *</span>
+            <div class="v117_317">
+             
+                <input list="person-list" id="person" name="person" style="
+                    height: 51px;
+                    width: 695px;
+                ">
+                <datalist id="person-list">
+                    <option value="seed producer">
+                    <option value="Profession1">
+                    <option value="Profession2">
+                    <option value="Profession3">
+                    <option value="Profession4">
+                    <option value="Profession5">
+                    <option value="Profession6">
+                    <option value="Profession7">
+                    <option value="Profession8">
+                    <option value="Profession9"></option>
+                                                </option>
+                                            </option>
+                                        </option>
+                                    </option>
+                                </option>
+                </datalist>
+
+            </div>
+            <div class="v117_326">
+                <input type="text" size="48" style="
+                height: 50px;
+                width: 693px;
+                font-size: 20px;
+            ">
+            </div>
+            <span class="v117_318">You are a</span>
+           <!-- <span class="v117_319">seed producer</span>-->
+            <span class="v117_327">If other, please specify</span>
+            <span class="v117_311">Position</span>
+            <span class="v117_315">Country</span>
+            <span class="v117_344">Telephone</span>
+            <span class="v117_310">Company Name</span>
+            <span class="v117_316">City</span>
+            <span class="v117_346">Email *</span>
+            <span class="v117_350">Please type this code</span>
+            <span class="v117_348">You are interested in</span>
+            
+        <div class="v117_352">
+
+        </div>
+        <button class="v117_354">
+
+            <p>Send Message</p>
+        </button>
+        <!--<span class="v117_355">Send Message</span>-->
+    </div>
+    <div class="v117_364">
+
+    </div>
+    <div class="v117_369">
+        <span class="v117_368">AGRIDERA Seeds & Agriculture Ltd.
+P.O Box 103,
+Gedera 70750, Israel.
+Telephone: <a href="tel:97289449222">+972 8 944 9222</a></span>
+<span class="v117_366">Our Address</span>
+<div class="name">
+
+</div>
+</div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
