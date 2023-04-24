@@ -10,6 +10,7 @@ self.addEventListener('install', function(event) {
             cache.add('/index3.html');
             cache.add('/css/main.css');
             cache.add('/css/responsive.css');
+            cache.add('/manifest.json');
             cache.add('/img/Logo.svg');
             cache.add('/');
         })
