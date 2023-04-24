@@ -45,7 +45,17 @@
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/responsive2.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
-
+  
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+        .register('/sw.js')
+        .then(function() {
+            console.log('Service worker registered!');
+        });
+    }
+  </script>
+  
     <title>Agridera</title>
   </head>
 
