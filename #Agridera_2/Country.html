@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список столиць Європи</title>
+    <style>
+        #capital-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Список столиць Європи</h1>
+    <ul id="capital-list"></ul>
+    <script>
+        fetch('https://restcountries.com/v3.1/region/europe')
+            .then(response => response.json())
+            .then(data => {
+                const capitalList = document.getElementById('capital-list');
+                data.forEach(country => {
+                    const capital = country.capital[0];
+                    const capitalItem = document.createElement('li');
+                    capitalItem.textContent = capital;
+                    capitalList.appendChild(capitalItem);
+                });
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+</html>
